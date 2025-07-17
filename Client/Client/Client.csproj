@@ -1,12 +1,19 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <ItemGroup>
-    <ProjectReference Include="..\..\Server\AtomServer.Domain\AtomServer.Domain.csproj" />
-  </ItemGroup>
-
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\..\Server\AtomServer.Domain\AtomServer.Domain.csproj" />
+    <!-- <Reference Include="UnityEngine">
+      <HintPath>/home/root2/Unity/Hub/Editor/6000.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference> -->
+    <!-- <Reference Include="UnityEngine.CoreModule">
+      <HintPath>/home/root2/Unity/Hub/Editor/6000.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+    </Reference> -->
+  </ItemGroup>
+
 
 </Project>
